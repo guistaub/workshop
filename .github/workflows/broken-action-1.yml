@@ -20,5 +20,5 @@ jobs:
         uses: actions/upload-artifact@v3
         # run: echo "Uploading the dictionary file"
         with:
-          name: dictionary.txt
-          path: utils/dictionary.txt
+          name: dictionary
+          path: utils/

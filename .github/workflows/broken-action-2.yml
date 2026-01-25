@@ -2,8 +2,7 @@
 name: Broken Action 2 - Create an issue
 
 on:
-  pull_request: 
-  workflow_dispatch:
+  issues: 
 
 jobs:
   hello:
